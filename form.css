@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:rgb(245, 243, 242);
+}
+header{
+   height:17vh;
+   width:100%;
+   border-bottom:3px solid rgb(8, 59, 130);
+}
+.top-head{
+    width:100%;
+    height:2.3em;
+    background-color:rgb(242, 113, 44);
+}
+.svgs{
+  display: flex;
+  flex: row;
+  justify-content:end;
+}
+.icons{
+    display: flex;
+    flex: row;
+    margin-right: 2em;  
+    
+}
+ul li{
+    list-style:none;
+    margin-right:1em;
+    margin-top:0.5em;
+    }
+  .icon-img{
+    list-style:none;
+    display: flex;
+    margin-top:-0.5em;
+    margin-left:-1em;
+  }
+  .urdu{
+    margin-top:0.4em;
+  }
+  .bottom-head{
+     height:4.2em;
+     background-color:rgb(255, 255, 255);
+     display: flex;
+     position:absolute;
+     width: 100%;
+     gap: 50em;
+     align-items: center;
+     margin-top:-0.1em;
+  }
+  .bank-logo img{
+    width:130px;
+    height:26px;
+    margin-left: 5em;
+  }
+   .pk-digital img{
+    padding: 10px;
+    }
+    .seperator{
+      display: flex;
+      flex: row;
+      margin-left:1.5em;
+      margin-top:0.34em;
+    }
+    .blue{
+      width:9%;
+      height:6px;
+      background-color:rgb(8, 59, 130);
+      display: block;
+      margin-top:0.5em;
+      margin-left:5em;
+    }
+    .orange{
+      width:80%;
+      height:6px;
+      background-color:rgb(252, 125, 20);
+      display: block;
+      margin-top:0.5em;
+      margin-left:5em;
+      margin-left:-2em;
+    }
+    .light{
+      font-size:24px;
+      color:rgb(252, 125, 20);
+      font-family: "Work Sans", serif;
+      font-weight:270;
+      margin-left:4.3em;
+    }
+    .bold{
+      font-size:24px;
+      color:rgb(252, 125, 20);
+      font-family: "Work Sans", serif;
+      font-weight:600;
+    }
+   #date{
+    color:rgb(247, 240, 240);
+    margin-top:0.5em;
+  }
+  .heading{
+    margin-top:0.5em;
+  }
+  .scale{
+    width:85%;
+    height:1.5em;
+    border-bottom:1px solid  rgb(252, 125, 20);
+    display: flex;
+    flex: row;
+    margin-left:6.5em;
+    margin-top:-0.8em;
+  }
+  .language{
+    width:55%;
+    height:7em;
+    background-color:rgb(232, 232, 232);
+    margin-left:300px;
+    margin-top:20px;
+    border-radius:10px;
+  }
+  .select{
+    font-size:20px;
+    font-family:work sans-serif;
+    font-weight:650;
+    color:#222B45;
+    padding:1em 0 0 0.85em;
+  }
+  .english{
+    width:45%;
+    height:2.3em;
+    background-color:rgb(16, 42, 130);
+    text-align: center;
+    border-radius:20px;
+    
+
+  }
+  .any p{
+    padding-top: 0.5em;
+    color:white;
+    font-family:"work sans",sans-serif;
+    cursor: pointer;
+  }
+  .Urdu{
+    width:45%;
+    height:2.3em;
+    background-color:rgb(16, 42, 130);
+    text-align: center;
+    border-radius:20px;
+    
+  }
+  .any{
+    display:flex;
+    flex:row;
+    gap: 0.5em;
+    justify-content: space-evenly;
+    margin-top:1em;
+
+  }
+  button{
+    width:9.5em;
+    height:2.6em;
+    background-color:rgb(16, 42, 130);
+    border: none;
+    color:white;
+    font-size:15px;
+    font-family:"work sans" sans-serif;
+    font-weight:450;
+    border-radius:5px;
+    margin:2.5em  21em;
+    float: right;
+    cursor: pointer;
+  }
+  button a{
+    color:white;
+    text-decoration:none;
+    
+  }
